@@ -1,0 +1,1 @@
+# 3dsMax-Bake-Radiosity
