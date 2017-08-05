@@ -20,4 +20,4 @@ Version
 =======
 1.0 - Initial Release for 3ds Max 2015/2016 (based on code from prior samples).
 1.1 - Updated to 3ds Max 2017 and adding app store functionality.
-
+1.2 - Updated to 3ds Max 2018.
