@@ -18,11 +18,7 @@
 	Phone=" "
   	Url="http://www.autodesk.com"
 	Email="labs.plugins@autodesk.com" />
-  <RuntimeRequirements OS="Win64" Platform="3ds Max|3ds Max Design" SeriesMin="2015" SeriesMax="2019" />
-  <Components Description="plugins parts">
-    <RuntimeRequirements OS="Win64" Platform="3ds Max|3ds Max Design" SeriesMin="2015" SeriesMax="2016" />
-    <ComponentEntry AppName="BakeRadiosity" Version="1.0.0" ModuleName="./Contents/plugins/2015/BakeRadiosity.dlu" />
-  </Components>
+  <RuntimeRequirements OS="Win64" Platform="3ds Max|3ds Max Design" SeriesMin="2017" SeriesMax="2020" />
   <Components Description="plugins parts">
     <RuntimeRequirements OS="Win64" Platform="3ds Max" SeriesMin="2017" SeriesMax="2017" />
     <ComponentEntry AppName="BakeRadiosity" Version="1.0.0" ModuleName="./Contents/plugins/2017/BakeRadiosity.dlu" />
@@ -34,5 +30,9 @@
   <Components Description="plugins parts">
     <RuntimeRequirements OS="Win64" Platform="3ds Max" SeriesMin="2019" SeriesMax="2019" />
     <ComponentEntry AppName="BakeRadiosity" Version="1.0.0" ModuleName="./Contents/plugins/2019/BakeRadiosity.dlu" />
+  </Components>
+  <Components Description="plugins parts">
+    <RuntimeRequirements OS="Win64" Platform="3ds Max" SeriesMin="2020" SeriesMax="2020" />
+    <ComponentEntry AppName="BakeRadiosity" Version="1.0.0" ModuleName="./Contents/plugins/2020/BakeRadiosity.dlu" />
   </Components>
 </ApplicationPackage>
