@@ -18,7 +18,7 @@
     <ProjectName>BakeRadiosity</ProjectName>
     <ProjectGuid>{6671F0BA-6FB8-4f35-8392-0676D05113A8}</ProjectGuid>
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <MaxSDK>$(ADSK_3DSMAX_SDK_2018)</MaxSDK>
+    <MaxSDK>$(ADSK_3DSMAX_SDK_2019)</MaxSDK>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -29,7 +29,7 @@
   </ImportGroup>
   <PropertyGroup>
     <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Platform)'=='x64'">$(ADSK_3DSMAX_x64_2018)\plugins\</OutDir>
+    <OutDir Condition="'$(Platform)'=='x64'">$(ADSK_3DSMAX_x64_2019)\plugins\</OutDir>
     <IntDir>$(ProjectDir)\obj\$(MaxPlatform)\$(MaxConfiguration)\</IntDir>
     <TargetName>BakeRadiosity</TargetName>
     <TargetExt>.dlu</TargetExt>
