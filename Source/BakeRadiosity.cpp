@@ -71,6 +71,7 @@ public:
 	virtual int IsPublic() 							{ return TRUE; }
 	virtual void* Create(BOOL /*loading = FALSE*/) 	{ return BakeRadiosity::GetInstance(); }
 	virtual const TCHAR *	ClassName() 			{ return GetString(IDS_CLASS_NAME); }
+	virtual const TCHAR*  NonLocalizedClassName()   { return _T("BakeRadiosity"); }
 	virtual SClass_ID SuperClassID() 				{ return UTILITY_CLASS_ID; }
 	virtual Class_ID ClassID() 						{ return BakeRadiosity_CLASS_ID; }
 	virtual const TCHAR* Category() 				{ return GetString(IDS_CATEGORY); }
@@ -284,7 +285,7 @@ void BakeRadiosity::DoIt(void)
       }
       // Gets the TM for the node.
       // TM is the mesh to world space transform.
-      Matrix3 mtx(1);
+      Matrix3 mtx;
       if(!rm->GetMeshTM(node, mtx)){
 	      DebugPrint(_T("GetMeshTM error\n"));
          continue;

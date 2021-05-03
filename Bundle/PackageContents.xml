@@ -1,24 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ApplicationPackage 
-	SchemaVersion="1.0" 
-	AutodeskProduct="3ds Max" 
-	Name="ADN-BakeRadiosity" 
-	DescriptionLong="This plugin can be used to bake vertex color from the radiosity."
-	Description="This plugin can be used to bake vertex color from the radiosity" 
-	AppVersion="1.0.0" 
-	FriendlyVersion="1.0.0" 
-	ProductType="Application" 
-	HelpFile="./Contents/Help/index.html" 
-	SupportedLocales="Enu" 
-	AppNameSpace="appstore.exchange.autodesk.com" 
-	Author="Autodesk" 
-	ProductCode="{9A72F9B5-3662-49EB-A71A-3E9DD96020ED}" 
-	UpgradeCode="{78209456-F1AA-4DE1-A80B-5B5508687B8E}">
-  <CompanyDetails Name="Autodesk" 
-	Phone=" "
-  	Url="http://www.autodesk.com"
-	Email="labs.plugins@autodesk.com" />
-  <RuntimeRequirements OS="Win64" Platform="3ds Max|3ds Max Design" SeriesMin="2017" SeriesMax="2020" />
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="3ds Max" Name="ADN-BakeRadiosity" DescriptionLong="This plugin can be used to bake vertex color from the radiosity." Description="This plugin can be used to bake vertex color from the radiosity" AppVersion="1.0.0" FriendlyVersion="1.0.0" ProductType="Application" HelpFile="./Contents/Help/index.html" SupportedLocales="Enu" AppNameSpace="appstore.exchange.autodesk.com" Author="Autodesk" ProductCode="{A2FEE862-5409-4712-8CDF-E83716025B38}" UpgradeCode="{78209456-F1AA-4DE1-A80B-5B5508687B8E}" OnlineDocumentation="http://www.autodesk.com" Icon="./Contents/help/Resources/BR.bmp">
+  <CompanyDetails Name="Autodesk" Phone=" " Url="http://www.autodesk.com" Email="labs.plugins@autodesk.com" />
+  <RuntimeRequirements OS="Win64" Platform="3ds Max|3ds Max Design" SeriesMin="2017" SeriesMax="2022" />
   <Components Description="plugins parts">
     <RuntimeRequirements OS="Win64" Platform="3ds Max" SeriesMin="2017" SeriesMax="2017" />
     <ComponentEntry AppName="BakeRadiosity" Version="1.0.0" ModuleName="./Contents/plugins/2017/BakeRadiosity.dlu" />
@@ -32,7 +15,11 @@
     <ComponentEntry AppName="BakeRadiosity" Version="1.0.0" ModuleName="./Contents/plugins/2019/BakeRadiosity.dlu" />
   </Components>
   <Components Description="plugins parts">
-    <RuntimeRequirements OS="Win64" Platform="3ds Max" SeriesMin="2020" SeriesMax="2020" />
+    <RuntimeRequirements OS="Win64" Platform="3ds Max" SeriesMin="2020" SeriesMax="2021" />
     <ComponentEntry AppName="BakeRadiosity" Version="1.0.0" ModuleName="./Contents/plugins/2020/BakeRadiosity.dlu" />
+  </Components>
+  <Components Description="plugins parts">
+    <RuntimeRequirements OS="Win64" Platform="3ds Max" SeriesMin="2022" SeriesMax="2022" />
+    <ComponentEntry AppName="BakeRadiosity" Version="1.0.0" ModuleName="./Contents/plugins/2022/BakeRadiosity.dlu" />
   </Components>
 </ApplicationPackage>
