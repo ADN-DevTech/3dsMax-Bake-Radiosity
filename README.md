@@ -18,7 +18,8 @@ http://www.autodesk.com/develop3dsmax
 
 Version
 =======
-1.0 - Initial Release for 3ds Max 2015/2016 (based on code from prior samples). 
-1.1 - Updated to 3ds Max 2017 and adding app store functionality.
-1.2 - Updated to 3ds Max 2018.
-1.3 - Updated to 3ds Max 2019 and 2020.
+1.0 - Initial Release for 3ds Max 2015/2016 (based on code from prior samples).   
+1.1 - Updated to 3ds Max 2017 and adding app store functionality.  
+1.2 - Updated to 3ds Max 2018.  
+1.3 - Updated to 3ds Max 2019 and 2020.  
+1.4 - Removed old versions and updated/tested for 2020, 2021, 2022, 2023, 2024  
